@@ -1,0 +1,48 @@
+body{
+	background:#eaeaea;
+	font-family:montserrat;
+	text-align:center;
+	font-size:25px;
+	border:5px solid black;
+	margin:20px;
+}
+
+
+/*this is my profile picture area*/
+
+.prof{
+	height:250px;
+	width:250px;
+	margin:10px;
+	 border-radius:50%;
+}
+
+ ul{
+	 list-style-type:none;
+ }
+ 
+/*this is the social media icons are*/
+
+.socialicons{
+	display:flex;
+	justify-content:center;
+}
+
+.socialicons a{
+	text-decoration:none;
+	padding:10px;
+	background-color:#fff;
+	margin:10px;
+	border-radius:50%;
+	box-shadow:4px 4px 4px grey;
+}
+
+.socialicons a 1{
+	font-size:2em;
+	color:black;
+}
+
+.socialicons a:hover{
+	background-color:black;
+	transition:0.5s;
+}
